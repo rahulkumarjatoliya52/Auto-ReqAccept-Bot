@@ -31,7 +31,7 @@ API_HASH = env.get('API_HASH')
 BOT_TOKEN = env.get('BOT_TOKEN')
 DB_URL = env.get('DB_URL')
 ADMINS = int(env.get('ADMINS'))
-default_text = env.get('default_text')
+
 # 🗄️ Database and Client Setup
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
@@ -148,7 +148,19 @@ async def req_accept(c, m):
     # await c.approve_chat_join_request(chat_id, user_id) 
     
     # 🌍 Fetch the custom message template from Koyeb env variables
-    default_text = "Hello {mention}\nWelcome To {title}\n\nYou are Auto Approved!"
+    default_text = """🔥 **𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗖𝗢𝗡𝗧𝗘𝗡𝗧** 🎀
+≪━─━─━─━─◈─━─━─━─━≫ 
+❤️‍🔥**𝐕!𝐫𝐚𝐥 𝐌𝐦s** 🫦👇👇
+**https://t.me/+Tr0PnqAuXq8xNjVl**
+**https://t.me/+Tr0PnqAuXq8xNjVl**
+
+🫦**Viral Video** 🍑👇
+**https://t.me/+sIcUWOvj3edjZWFl**
+**https://t.me/+sIcUWOvj3edjZWFl**
+
+❤️‍🔥**𝐕!𝐫𝐚𝐥 𝐌𝐦s** 🫦👇👇
+**https://t.me/+GuWn8UZ9S3wxNTE1**
+**https://t.me/+GuWn8UZ9S3wxNTE1** """
     raw_message = env.get("WELCOME_MSG", default_text)
     
     # 🔧 FIX: Converts literal '\n' typed into Koyeb into actual clean line breaks
