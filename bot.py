@@ -8,7 +8,8 @@ from os import environ as env
 import asyncio, datetime, time
 from pyrogram.enums import ParseMode
 # ⚙️ Configuration Texts
-ACCEPTED_TEXT = "🔥 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗖𝗢𝗡𝗧𝗘𝗡𝗧 🎀
+ACCEPTED_TEXT =
+"🔥 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗖𝗢𝗡𝗧𝗘𝗡𝗧 🎀
 ≪━─━─━─━─◈─━─━─━─━≫ 
 ❤️‍🔥𝐕!𝐫𝐚𝐥 𝐌𝐦s 🫦👇👇
 https://t.me/+sIcUWOvj3edjZWFl
