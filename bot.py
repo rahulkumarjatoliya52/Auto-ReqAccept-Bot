@@ -160,7 +160,17 @@ async def req_accept(c, m):
 
 ❤️‍🔥**𝐕!𝐫𝐚𝐥 𝐌𝐦s** 🫦👇👇
 **https://t.me/+GuWn8UZ9S3wxNTE1**
-**https://t.me/+GuWn8UZ9S3wxNTE1** """
+**https://t.me/+GuWn8UZ9S3wxNTE1**
+
+≪━─━─━─━─◈─━─━─━─━≫
+
+🎬**𝐁𝐔𝐘 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐌𝐄𝐌𝐁𝐄𝐑𝐒𝐇𝐈𝐏**❤️‍🔥
+≪━─━─━─━─◈─━─━─━─━≫ 
+🔰**DM:- t.me/JACK_xSELLER**
+🔰**DM:- t.me/JACK_xSELLER**
+🔰**DM:- t.me/JACK_xSELLER**
+≪━─━─━─━─◈─━─━─━─━≫ 
+🎬**𝐁𝐔𝐘 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 𝐌𝐄𝐌𝐁𝐄𝐑𝐒𝐇𝐈𝐏**❤️‍🔥"""
     raw_message = env.get("WELCOME_MSG", default_text)
     
     # 🔧 FIX: Converts literal '\n' typed into Koyeb into actual clean line breaks
