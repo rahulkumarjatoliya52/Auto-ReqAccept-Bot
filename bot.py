@@ -31,7 +31,6 @@ BOT_TOKEN = env.get('BOT_TOKEN')
 DB_URL = env.get('DB_URL')
 ADMINS = int(env.get('ADMINS'))
 ACCEPTED_TEXT = env.get('ACCEPTED_TEXT')
-START_TEXT = env.get('START_TEXT')
 # 🗄️ Database and Client Setup
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
