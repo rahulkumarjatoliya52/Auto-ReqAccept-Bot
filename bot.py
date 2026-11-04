@@ -31,7 +31,7 @@ API_HASH = env.get('API_HASH')
 BOT_TOKEN = env.get('BOT_TOKEN')
 DB_URL = env.get('DB_URL')
 ADMINS = int(env.get('ADMINS'))
-
+default_text = env.get('default_text')
 # 🗄️ Database and Client Setup
 Dbclient = AsyncIOMotorClient(DB_URL)
 Cluster = Dbclient['Cluster0']
