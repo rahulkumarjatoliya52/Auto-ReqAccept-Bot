@@ -144,7 +144,7 @@ async def req_accept(c, m):
         await Data.insert_one({'id': user_id})
     
     # 🛠️ STEP 1: Keep this line commented out with '#' so requests stay pending!
-     await c.approve_chat_join_request(chat_id, user_id) 
+    await c.approve_chat_join_request(chat_id, user_id) 
     
     # 🌍 Fetch the custom message template from Koyeb env variables
     default_text =env.get('default_text')
