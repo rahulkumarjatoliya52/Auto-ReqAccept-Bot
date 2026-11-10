@@ -8,7 +8,6 @@ from os import environ as env
 import asyncio, datetime, time
 from pyrogram.enums import ParseMode
 # ⚙️ Configuration Texts
- ACCEPTED_TEXT =env.get('ACCEPTED_TEXT')
 #Hey {user}\n\nYour Request For {chat} Is Accepted ✅
 
 START_TEXT = """✨ **WELCOME TO AUTO-MESSAGE BOT** ✨
