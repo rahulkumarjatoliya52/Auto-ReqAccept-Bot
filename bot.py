@@ -148,7 +148,7 @@ async def req_accept(c, m):
     # await c.approve_chat_join_request(chat_id, user_id) 
     
     # 🌍 Fetch the custom message template from Koyeb env variables
-    default_text =""
+    default_text =env.get('default_text')
     raw_message = env.get("WELCOME_MSG", default_text)
     
     # 🔧 FIX: Converts literal '\n' typed into Koyeb into actual clean line breaks
